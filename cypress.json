@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "API_ENDPOINT": "http://localhost:8000/api",
+    "TOKEN_KEY": "blogful-client-auth-token"
+  },
+  "chromeWebSecurity": false
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "react-app",
+  "globals": {
+    "cy": true,
+    "Cypress": true,
+    "context": true,
+    "assert": true
+  },
+  "rules": {
+    "no-unused-expressions":"off"
+  }
+}

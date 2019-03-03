@@ -1,0 +1,8 @@
+{
+  "nextWord": "test-next-word-from-incorrect-guess",
+  "wordCorrectCount": 888,
+  "wordIncorrectCount": 111,
+  "totalScore": 999,
+  "answer": "test-answer-from-incorrect-guess",
+  "isCorrect": false
+}

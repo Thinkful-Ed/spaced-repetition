@@ -1,0 +1,138 @@
+<mxfile host="localhost" modified="2020-05-17T19:49:05.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="Ki5LSFSl_93kHEO4r_Ky" version="13.0.9">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="1182" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="30" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="Login&amp;nbsp;" placeholders="1" name="Variable" id="5">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="50" y="50" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Sign up" placeholders="1" name="Variable" id="6">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="225" y="50" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Sign up" placeholders="1" name="Variable" id="8">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="140" y="100" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Practice learning with the spaced repetition technique&amp;nbsp;" placeholders="1" name="Variable" id="9">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="-50" y="140" width="410" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="10" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="170" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="220" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="270" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <UserObject label="Enter your name" placeholders="1" name="Variable" id="13">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="30" y="175" width="110" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Choose a username" placeholders="1" name="Variable" id="14">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="30" y="225" width="120" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Choose a password" placeholders="1" name="Variable" id="15">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="25" y="275" width="130" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="19" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="320" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <UserObject label="Sign up" placeholders="1" name="Variable" id="20">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#000000;" parent="1" vertex="1">
+                        <mxGeometry x="140" y="325" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Already have an account? Login here" placeholders="1" name="Variable" id="21">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="110" y="380" width="145" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Language Learning App" placeholders="1" name="Variable" id="22">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="90" width="180" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="30" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="Login&amp;nbsp;" placeholders="1" name="Variable" id="40">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="470" y="50" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Sign up" placeholders="1" name="Variable" id="41">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="645" y="50" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="39" target="39" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Login" placeholders="1" name="Variable" id="43">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="560" y="100" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Practice learning with the spaced repetition technique&amp;nbsp;" placeholders="1" name="Variable" id="44">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="370" y="140" width="410" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="46" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="175" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="225" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <UserObject label="Enter your username" placeholders="1" name="Variable" id="49">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="445" y="180" width="120" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Enter your password" placeholders="1" name="Variable" id="50">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="440" y="230" width="130" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="51" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="555" y="320" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <UserObject label="Login" placeholders="1" name="Variable" id="52">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#000000;" vertex="1" parent="1">
+                        <mxGeometry x="560" y="325" width="80" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Don't have an account? Signup here" placeholders="1" name="Variable" id="53">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="527.5" y="370" width="145" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Language Learning App" placeholders="1" name="Variable" id="54">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                        <mxGeometry x="510" width="180" height="20" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

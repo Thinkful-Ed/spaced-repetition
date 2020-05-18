@@ -25,27 +25,27 @@ class DashboardRoute extends Component {
     
   }
 
-  renderWords = () => {
-    return (
-      <li className="word-to-practice">
-        <p className="word">{word}</p>
-        <p className="correct-guesses">You have guessed this word correctly {correct} times</p>
-        <p className="incorrect-guesses">You have guessed this word correctly {incorrect} times</p>
+  // renderWords = () => {
+  //   return (
+  //     <li className="word-to-practice">
+  //       <p className="word">{word}</p>
+  //       <p className="correct-guesses">You have guessed this word correctly {correct} times</p>
+  //       <p className="incorrect-guesses">You have guessed this word correctly {incorrect} times</p>
 
-      </li>
-    )
-  }
+  //     </li>
+  //   )
+  // }
 
 
   render() {
     return (
       <section className="dashboard">
         <h1>Name of App</h1>
-        {/* Language goes here */}
+        <h2>Test Language 1</h2>{/* Language goes here */}
         <p className="score">Your Current Score: </p>
         <h2>Words to Practice</h2>
         <ul>
-          {this.renderWords()}
+          {/* {this.renderWords()} */}
         </ul>
         <Link to="/learn">
           <Button>Start Practicing</Button>

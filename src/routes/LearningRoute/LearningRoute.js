@@ -9,20 +9,17 @@ import React, { Component } from "react";
 import LearningPage from "../../components/LearningPage/LearningPage";
 
 class LearningRoute extends Component {
-  state = { error: null }
+  state = { error: null };
 
   static defaultProps = {
     location: {},
     history: {
-      push: () => { },
+      push: () => {},
     },
-  }
+  };
 
-  componentDidMount() {
-    
-  }
+  componentDidMount() {}
 
-  
   render() {
     return (
       <section>
@@ -32,4 +29,4 @@ class LearningRoute extends Component {
   }
 }
 
-export default LearningRoute
+export default LearningRoute;

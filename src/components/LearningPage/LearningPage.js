@@ -1,22 +1,20 @@
-import { Link } from 'react-router-dom';
-import Button from './../../components/Button/Button';
-import { Input, Required, Label } from '../Form/Form'
+import { Link } from "react-router-dom";
+import Button from "./../../components/Button/Button";
+import { Input, Required, Label } from "../Form/Form";
 
 import React, { Component } from "react";
 
 class LearningPage extends Component {
-  state = { error: null }
+  state = { error: null };
 
   static defaultProps = {
     location: {},
     history: {
-      push: () => { },
+      push: () => {},
     },
-  }
+  };
 
-  componentDidMount() {
-    
-  }
+  componentDidMount() {}
 
   render() {
     return (
@@ -32,5 +30,4 @@ class LearningPage extends Component {
   }
 }
 
-export default LearningPage
-
+export default LearningPage;

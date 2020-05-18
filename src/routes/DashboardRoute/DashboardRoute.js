@@ -3,13 +3,6 @@ import { Link } from "react-router-dom";
 import Button from "./../../components/Button/Button";
 import ApiService from "./../../services/api-service";
 
-// - The app gets my language and words progress from the server
-//check - I'm shown my language
-//check - I'm shown the words to learn for the language
-// - I'm shown my count for correct and incorrect responses for each word
-//check - I'm given a button/link to start learning
-//check - I'm shown the total score for guessing words correctly
-
 class DashboardRoute extends Component {
   state = {
     error: null,
@@ -56,10 +49,12 @@ class DashboardRoute extends Component {
   };
 
   render() {
+    const { error } = this.state;
     return (
       <section className="dashboard">
         <h2>{this.state.language}</h2>
         <p className="score">Total correct answers: {this.state.score}</p>
+        <div role="alert">{error && <p>{error}</p>}</div>
         <h3>Words to practice</h3>
         <ul>{this.state.wordsToPractice}</ul>
         <Link to="/learn">

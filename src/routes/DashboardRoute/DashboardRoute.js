@@ -4,11 +4,11 @@ import Button from './../../components/Button/Button';
 import ApiService from './../../services/api-service';
 
 // - The app gets my language and words progress from the server
-// - I'm shown my language
-// - I'm shown the words to learn for the language
+//check - I'm shown my language
+//check - I'm shown the words to learn for the language
 // - I'm shown my count for correct and incorrect responses for each word
-// - I'm given a button/link to start learning
-// - I'm shown the total score for guessing words correctly
+//check - I'm given a button/link to start learning
+//check - I'm shown the total score for guessing words correctly
 
 
 class DashboardRoute extends Component {
@@ -36,15 +36,14 @@ class DashboardRoute extends Component {
         console.log(data.words)
         this.renderWords(data.words)
       })
-
   }
 
   renderWords = (words) => {
     let wordsToPractice = words.map(word => {
-      return <li className="word-to-practice">
-        <p className="word">{word.original}</p>
-        <p className="correct-guesses">You have guessed this word correctly 000 times</p>
-        <p className="incorrect-guesses">You have guessed this word correctly 000 times</p>
+      return <li key={word.id} className="word-to-practice">
+        <h4 className="word">{word.original}</h4>
+        <p className="correct-guesses">correct answer count: {word.correct_count}</p>
+        <p className="incorrect-guesses">incorrect answer count: {word.incorrect_count}</p>
       </li>
     })
     this.setState({
@@ -52,18 +51,17 @@ class DashboardRoute extends Component {
     })
   }
 
-
   render() {
     return (
       <section className="dashboard">
         <h2>{this.state.language}</h2>
-        <p className="score">Your Current Score: {this.state.score}</p>
-        <h2>Words to Practice</h2>
+        <p className="score">Total correct answers: {this.state.score}</p>
+        <h3>Words to practice</h3>
         <ul>
           {this.state.wordsToPractice}
         </ul>
         <Link to="/learn">
-          <Button>Start Practicing</Button>
+          <Button>Start practicing</Button>
         </Link>
       </section>  
     );

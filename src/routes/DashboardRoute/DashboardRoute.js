@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './../../components/Button/Button';
-import ApiService from './../../services/api-service'
+import ApiService from './../../services/api-service';
 
 // - The app gets my language and words progress from the server
 // - I'm shown my language
@@ -10,16 +10,15 @@ import ApiService from './../../services/api-service'
 // - I'm given a button/link to start learning
 // - I'm shown the total score for guessing words correctly
 
-
 class DashboardRoute extends Component {
-  state = { error: null }
+  state = { error: null };
 
   static defaultProps = {
     location: {},
     history: {
-      push: () => { },
+      push: () => {},
     },
-  }
+  };
 
   componentDidMount() {
     // ApiService.getLanguage()
@@ -36,22 +35,20 @@ class DashboardRoute extends Component {
   //   )
   // }
 
-
   render() {
     return (
       <section className="dashboard">
-        <h2>Test Language 1</h2>{/* Language goes here */}
+        <h2 className="lang">Test Language 1</h2>
+        {/* Language goes here */}
         <p className="score">Your Current Score: </p>
-        <h2>Words to Practice</h2>
-        <ul>
-          {/* {this.renderWords()} */}
-        </ul>
+        <h2 className="words">Words to Practice</h2>
+        <ul className="word-list">{/* {this.renderWords()} */}</ul>
         <Link to="/learn">
           <Button>Start Practicing</Button>
         </Link>
-      </section>  
+      </section>
     );
   }
 }
 
-export default DashboardRoute
+export default DashboardRoute;

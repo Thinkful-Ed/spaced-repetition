@@ -1,0 +1,25 @@
+.dashboard {
+  display: grid;
+  grid-template-rows: minmax(100px, flex);
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.lang {
+  display: flex;
+  flex-flow: row;
+}
+
+.score {
+  display: flex;
+  flex-flow: row;
+}
+
+.words {
+  display: flex;
+  flex-flow: row;
+}
+
+.word-list {
+  display: flex;
+  flex-flow: row;
+}

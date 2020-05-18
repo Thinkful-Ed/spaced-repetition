@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class NotFoundRoute extends Component {
   render() {
@@ -11,4 +11,4 @@ class NotFoundRoute extends Component {
   }
 }
 
-export default NotFoundRoute
+export default NotFoundRoute;

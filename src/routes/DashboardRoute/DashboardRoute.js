@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './../../components/Button/Button';
-import ApiService from './../../services/api-service'
+import ApiService from './../../services/api-service';
 
 // - The app gets my language and words progress from the server
 // - I'm shown my language
@@ -12,7 +12,12 @@ import ApiService from './../../services/api-service'
 
 
 class DashboardRoute extends Component {
-  state = { error: null }
+  state = { 
+    error: null,
+    language: '',
+    score: 0,
+    wordsToPractice: ''
+  }
 
   static defaultProps = {
     location: {},
@@ -22,29 +27,40 @@ class DashboardRoute extends Component {
   }
 
   componentDidMount() {
-    // ApiService.getLanguage()
+    ApiService.getLanguage()
+      .then(data => {
+        this.setState({
+          language: data.language.name,
+          score: data.language.total_score
+        })
+        console.log(data.words)
+        this.renderWords(data.words)
+      })
+
   }
 
-  // renderWords = () => {
-  //   return (
-  //     <li className="word-to-practice">
-  //       <p className="word">{word}</p>
-  //       <p className="correct-guesses">You have guessed this word correctly {correct} times</p>
-  //       <p className="incorrect-guesses">You have guessed this word correctly {incorrect} times</p>
-
-  //     </li>
-  //   )
-  // }
+  renderWords = (words) => {
+    let wordsToPractice = words.map(word => {
+      return <li className="word-to-practice">
+        <p className="word">{word.original}</p>
+        <p className="correct-guesses">You have guessed this word correctly 000 times</p>
+        <p className="incorrect-guesses">You have guessed this word correctly 000 times</p>
+      </li>
+    })
+    this.setState({
+      wordsToPractice
+    })
+  }
 
 
   render() {
     return (
       <section className="dashboard">
-        <h2>Test Language 1</h2>{/* Language goes here */}
-        <p className="score">Your Current Score: </p>
+        <h2>{this.state.language}</h2>
+        <p className="score">Your Current Score: {this.state.score}</p>
         <h2>Words to Practice</h2>
         <ul>
-          {/* {this.renderWords()} */}
+          {this.state.wordsToPractice}
         </ul>
         <Link to="/learn">
           <Button>Start Practicing</Button>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './../../components/Button/Button';
-
+import ApiService from './../../services/api-service'
 
 // - The app gets my language and words progress from the server
 // - I'm shown my language
@@ -22,7 +22,7 @@ class DashboardRoute extends Component {
   }
 
   componentDidMount() {
-    
+    // ApiService.getLanguage()
   }
 
   // renderWords = () => {
@@ -40,7 +40,6 @@ class DashboardRoute extends Component {
   render() {
     return (
       <section className="dashboard">
-        <h1>Name of App</h1>
         <h2>Test Language 1</h2>{/* Language goes here */}
         <p className="score">Your Current Score: </p>
         <h2>Words to Practice</h2>

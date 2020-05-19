@@ -3,7 +3,7 @@ import TokenService from "./token-service";
 
 const ApiService = {
   getLanguage() {
-    return fetch(`${config.API_ENDPOINT}/language`, {
+    return fetch(`${config.REACT_APP_API_ENDPOINT}/language`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${TokenService.getAuthToken()}`,
@@ -14,7 +14,7 @@ const ApiService = {
   },
 
   getNextWord() {
-    return fetch(`${config.API_ENDPOINT}/language/head`, {
+    return fetch(`${config.REACT_APP_API_ENDPOINT}/language/head`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${TokenService.getAuthToken()}`,

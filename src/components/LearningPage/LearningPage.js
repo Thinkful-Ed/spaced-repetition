@@ -23,7 +23,6 @@ class LearningPage extends Component {
 
   componentDidMount() {
     ApiService.getNextWord().then((data) => {
-      console.log(data)
       this.setState({
         nextWord: data.nextWord,
         score: data.totalScore,
@@ -34,15 +33,17 @@ class LearningPage extends Component {
   }
 
   render() {
-    const {nextWord, score, incorrect, correct} = this.state
+
+    const { nextWord, score, incorrect, correct, error} = this.state
     return (
       <section className="nextWord">
+        <div role="alert">{error && <p>{error}</p>}</div>
         <p className="score">Your total score is: {score}</p>
         <h2>Translate the word: </h2>
         <span>{nextWord}</span>
         <p>You have answered this word correctly {correct} times.</p>
         <p>You have answered this word incorrectly {incorrect} times.</p>
-        <form className="answer-form">
+        <form onSubmit={this.props.handleGuess}className="answer-form">
           <Label htmlFor="learn-guess-input">
             What's the translation for this word?
           </Label>

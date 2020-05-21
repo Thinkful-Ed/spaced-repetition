@@ -21,7 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "now ./build",
-    "postdeploy": "now alias -A ./build/now.json",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },

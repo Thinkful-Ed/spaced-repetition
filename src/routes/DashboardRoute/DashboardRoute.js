@@ -24,7 +24,6 @@ class DashboardRoute extends Component {
         language: data.language.name,
         score: data.language.total_score,
       });
-      console.log(data.words);
       this.renderWords(data.words);
     });
   }
